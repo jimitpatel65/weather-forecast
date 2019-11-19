@@ -1,0 +1,22 @@
+.search-bar {
+    box-sizing: border-box;
+    position: relative;
+    left: 50%;
+    margin-top: 30px;
+    transform: translate(-50%,-50%);
+    max-width: 500px;
+}
+
+.search-box {
+    outline: none;
+    width: 90%;
+    padding: 15px 20px;
+    border: 2px gray solid;
+    border-radius: 5px;
+}
+
+.search-btn {
+    position: absolute;
+    top: 30%;
+    right: 7%;
+}

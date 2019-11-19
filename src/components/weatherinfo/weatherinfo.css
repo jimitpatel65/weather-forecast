@@ -1,0 +1,27 @@
+.degree-temperature {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.degree-temp::after {
+    content: "\00b0";
+}
+
+.degree-high-low {
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hourly-heading {
+    text-align: left;
+    font-size: 15px;
+    text-decoration-color: teal;
+    font-weight: 900;
+}
+
+.hourly-table {
+    width: 200px;
+    margin-top: 10px;
+}
